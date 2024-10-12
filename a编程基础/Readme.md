@@ -51,7 +51,7 @@ Python 是一种简洁但是功能强大的面向对象的编程语言，在实�
 | :----------------------------------------------------------: | :------------------------------------: |
 | [75 颜色分类](https://leetcode.cn/problems/sort-colors/description/) |    利用快速排序的思想来实现本地完成    |
 | [Top K 算法的实现](https://juejin.cn/post/7059395546712604679) | 可以通过魔改快速排序的方式来实现计算， |
-|                                                              |                                        |
+| [153 寻找旋转数组的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/submissions/571789997/) |    二分查找，注意二分查找的边界条件    |
 
 
 
