@@ -1,20 +1,31 @@
 # PART 1 编程基础
 
-Python 是一种简洁但是功能强大的面向对象的编程语言，在实际的应用中 Python 官方的应用于数据获取、数据处理、模型训练、数据可视化、工程部署等操作，除了自身强大的官方库之外，**作为一种胶水语言，可以方便的来完成不同功能模块（比如 hive、spark；计算 cuda、C）之间的融合**，使得快速构建项目成为可能。
+Python 是一种**简洁但是功能强大的面向对象**的编程语言：自身拥有丰富的第三方库，另外作为一种胶水语言沟通和调用不同功能组件（比如 hive、spark；计算 cuda、C）。可以快速的上手构建项目。
+
+本文对 Python 编程中自身属性出发，为后续理解第三方库功能奠定基础。行文思路先介绍基本数据结构和基础编程操作，引出高阶编程操作，最后使用 Leetcode 编程来详细展示代码基础能力。
+
+快速浏览可以参考：[《菜鸟教程 - 学习 Python3.x 教程》](https://www.runoob.com/python3/python3-tutorial.html)
 
 ##  [1基础数据结构](1基础数据结构) 
 
-在顺序存储和链式存储的基础上，Python 程序抽象出易用的数据结构对象可以简单分类
+在顺序存储和链式存储的基础上，Python 中存在的数据结构抽象为
 
-- 基础的数据结构：数值类型、boolean 类型、字符串类型、日期时间（Datetime）
-- 可迭代的数据结构：列表（List）、集合（Set）、元组（Tuple）
-- 高阶的数据结构：树（Graph）、图（Graph）、队列（Collections.deque）、堆（Heapq）
+- 不可变数据结构：Number（数字）、String（字符串）、Tuple（元组）
+- 可变数据结构：List（列表）、Dict（字典）、Set（集合）
+- 高阶的数据结构：树（Tree）、图（Graph）、队列（Collections.deque）、堆（Heapq）
+- 高阶的数据对象：Datetime（日期）、Tensor（张量）、Dataframe（数据框）、ndArray（矩阵）
 
-在学习的过程中了解基础的数据结构是建立自己对于语言心智模型的一种方式，主要有以下好处：
+了解基础数据结构的好处：
 
-- 帮助更好的理解后续的复杂抽象数据结构（比如 Numpy.array ,Pandas.dataframe）
--  同时也是学习后续程序设计的基础，有助于提升自己的代码逻辑思维。
-- 此外，了解复杂数据结构的函数提供抽象方式可以更深层次的体会到不可言说的 Python 简洁的开发风格。
+- 帮助理解复杂抽象数据结构（比如 Numpy.array ,Pandas.dataframe）
+-  提升自身的程序代码思维
+- 体会到不可言说的 Python 简洁的开发风格
+
+
+
+
+
+
 
 ##  [2基础编程操作](2基础编程操作) 
 
@@ -62,3 +73,7 @@ Python 是一种简洁但是功能强大的面向对象的编程语言，在实�
 [算法通关手册（Leetcode）](https://algo.itcharge.cn/)
 
 [代码随想录](https://programmercarl.com/)
+
+[《Python cookbook 第三版中文》](https://LTAI5tNwHtQGucyrs15ssbvo@chenxia31blog.oss-cn-hangzhou.aliyuncs.com/fileshare/《Python Cookbook》第三版中文v1.0.2.pdf)
+
+[Python编程从入门到深入](https://pythonhowto.readthedocs.io/zh-cn/latest/index.html)
